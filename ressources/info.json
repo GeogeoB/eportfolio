@@ -1,0 +1,27 @@
+{<br/>
+    <tab></tab><span blue>"Name"</span>: <span orange>"BRENNE"</span>,<br/>
+    <tab></tab><span blue>"First_Name"</span>: <span orange>"Geoffrey"</span>,<br/>
+    <tab></tab><span blue>"Age"</span>: <span orange>"21",<br/>
+    <tab></tab><span blue>"Place_of_Residence 🏠"</span>: <span orange>"Toulouse, France"</span>,<br/>
+    <tab></tab><span blue>"School_Path 🏫"</span>: {<br/>
+        <tab></tab><tab></tab><span blue>"2021-2024"</span> : <span orange>"ENSEEIHT (École nationale supérieure d'électrotechnique, d\'électronique, d\'informatique, d\'hydraulique et des télécommunications)"</span>,<br/>
+        <tab></tab><tab></tab><span blue>"2018-2021"</span> : <span orange>"CPGE Dunkerque MP lycée Jean Bart"<br/>
+        <tab></tab>},<br/>
+        <tab></tab><span blue>"Hobbies"</span>: {<br/>
+            <tab></tab><tab></tab><span blue>"Sport" </span>: [<span orange>"Badminton 🏸"</span>, <span orange>"Swiming 🏊‍♀️"</span>, <span orange>"run 🏃‍♂️"</span>],<br/>
+            <tab></tab><tab></tab><span blue>"creative"</span> : [<span orange>"Drawing 💡"</span>, <span orange>"Video Games 🎮"</span>, <span orange>"Coding 💻"</span>]   <br/> 
+            <tab></tab>}<br/>
+}
+
+'{<br/><tab></tab><span blue>"Name"</span>: <span orange>"BRENNE"</span>,<br/><tab></tab><span blue>"First_Name"</span>: <span orange>"Geoffrey"</span>,<br/>
+    <tab></tab><span blue>"Age"</span>: <span orange>"21",<br/>
+    <tab></tab><span blue>"Place_of_Residence 🏠"</span>: <span orange>"Toulouse, France"</span>,<br/>
+    <tab></tab><span blue>"School_Path 🏫"</span>: {<br/>
+        <tab></tab><tab></tab><span blue>"2021-2024"</span> : <span orange>"ENSEEIHT (École nationale supérieure d'électrotechnique, d\'électronique, d\'informatique, d\'hydraulique et des télécommunications)"</span>,<br/>
+        <tab></tab><tab></tab><span blue>"2018-2021"</span> : <span orange>"CPGE Dunkerque MP lycée Jean Bart"<br/>
+        <tab></tab>},<br/>
+        <tab></tab><span blue>"Hobbies"</span>: {<br/>
+            <tab></tab><tab></tab><span blue>"Sport" </span>: [<span orange>"Badminton 🏸"</span>, <span orange>"Swiming 🏊‍♀️"</span>, <span orange>"run 🏃‍♂️"</span>],<br/>
+            <tab></tab><tab></tab><span blue>"creative"</span> : [<span orange>"Drawing 💡"</span>, <span orange>"Video Games 🎮"</span>, <span orange>"Coding 💻"</span>]   <br/> 
+            <tab></tab>}<br/>
+}'
