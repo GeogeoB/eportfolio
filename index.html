@@ -13,8 +13,7 @@
             <ul class="header-bar">
                 <li class="item-bar" id="item_1" onclick="scroll_to_about()" ><p class="p_header"><span id="numero_1" class="numero">01.</span> About</p></li>
                 <li class="item-bar" id="item_2" onclick="scroll_to_competences()"><p class="p_header"><span id="numero_1" class="numero">02.</span> Professional skills</p></li>
-                <li class="item-bar" id="item_3" onclick="scroll_to_experiences()"><p class="p_header"><span id="numero_1" class="numero">03.</span> Experiences</p></li>    
-                <li class="item-bar" id="item_4" onclick="scroll_to_projects()"><p class="p_header"><span id="numero_1" class="numero">04.</span> Some Projects</p></li>   
+                <li class="item-bar" id="item_3" onclick="scroll_to_back()"><p class="p_header"><span id="numero_1" class="numero">03.</span> Background</p></li>    
                 <!-- <li class="item-bar" id="item_4" onclick="scroll_to_contact()"><p><span id="numero_1" class="numero">04.</span> Contact</p></li>  -->
             </ul>
         </div>
@@ -73,7 +72,10 @@
         </div>
     </div>
 
+    <div class="mini-container"></div>
+
     <div class="container-about" id="container-professional-skills">
+        <video src="ressources/timelapse.mp4" autoplay muted class="bg-video"></video>
         <div class="sub-container sub_grid">
             <div class="titre">
                 <p class="About_Me"><span class="numero">02.</span> Professional Skills</p>
@@ -140,10 +142,10 @@
                     </div>
                 </div>
                 <div class="item-grid">
-                    <p class="titre_competence">ANGLAIS B1</p>
+                    <p class="titre_competence">ANGLAIS B2</p>
                 </div>
                 <div class="item-grid">
-                    <p class="titre_competence">German A1</p>
+                    <p class="titre_competence">German A2</p>
                 </div>
                 <div class="item-grid">
                     <p class="titre_competence">Spanish Beginner</p>
@@ -151,164 +153,28 @@
             </div>
         </div>
     </div>
-
-
-    <div id="last_container" class="container-about" >
-        <div class="sub-container">
-            <div class="titre">
-                <p class="About_Me"><span class="numero">03.</span> Experiences</p>
-            </div>
-            <div class="about_text" id="experiences">
-                <div class="item-experience">
-                    <hr>
-                    <p class="titre_item_exp">CDD in MINAKEM</p>
-                    <p class="description_item_exp">Tasked with recovering, classifying and digitizing the various paper data of the site with the aim of setting up a digital solution for the management of the site</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-
-                            <p class="date_lieu_texte">2019 August</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Dunkerque - France</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-experience">
-                    <hr>
-                    <hr>
-                    <p class="titre_item_exp">Engineer school ENSEEIHT</p>
-                    <p class="description_item_exp">section SN (Computers Science)</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-
-                            <p class="date_lieu_texte">2021 - 2024</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Toulouse - France</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-experience">
-                    <hr>
-                    <p class="titre_item_exp">Preparatory class to Engineer school</p>
-                    <p class="description_item_exp">section MPSI-MP</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-                            <p class="date_lieu_texte">2018 - 2021</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Dunkerque - France</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-experience">
-                    <hr>
-                    <p class="titre_item_exp">Scientific series baccalaureate SVT Mathematics specialty</p>
-                    <p class="description_item_exp">Graduated with honours section European English</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-                            <p class="date_lieu_texte">2018</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Hazebrouck - France</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-container">
-            <div class="titre">
-                <p class="About_Me"><span class="numero"></span> Personnal Experiences</p>
-            </div>
-            <div class="about_text" id="experiences">
-                <div class="item-experience">
-                    <hr>
-                    <p class="titre_item_exp">Fresque du Climat</p>
-                    <p class="description_item_exp">a workshop to become aware of the climate challenges of our century</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-
-                            <p class="date_lieu_texte">2021 September</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Toulouse - France</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-experience">
-                    <hr>
-                    <hr>
-                    <p class="titre_item_exp">Theatrical performance orchestrated by the teachiht to raise awareness against harassment</p>
-                    <p class="description_item_exp"></p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-
-                            <p class="date_lieu_texte">October 2021</p>
-                        </div>
-                        <div class="lieu">
-                            <svg class="icon_exp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>map-pointer-glyph</title><path d="M257.13,125.11c40.21,0,72.52,30.23,72.52,70.43,0,38.59-32.31,70.76-72.52,70.76-40.52,0-72.85-32.17-72.85-70.76,0-40.2,32.33-70.43,72.85-70.43Zm181.54,52.42C438.67,78.79,358,0,257.13,0c-101,0-183.8,78.79-183.8,177.53,0,4.18,0,10.3,2.09,14.15H73.33c0,96.81,183.8,320.32,183.8,320.32S438.67,288.49,438.67,191.68h0V177.53Z"/></svg>
-                            <p class="date_lieu_texte">Toulouse - France</p>
-                        </div>
-                    </div>
-                </div>
-                <hr>    
-            </div>
-        </div>
-    </div>
-
-    <div id="last_container" class="container-about" >
-        <div class="sub-container">
-            <div class="titre">
-                <p class="About_Me"><span class="numero">04.</span> Some Projects</p>
-            </div>
-            <div class="about_text" id="Projects">
-                <div class="item-experience">
-                    <hr>
-                    <p class="titre_item_exp">This E-portfolio Website</p>
-                    <p class="description_item_exp">Develop in HTML, CSS and Javascript</p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-                            <p class="date_lieu_texte">2021 September</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-experience">
-                    <hr>
-                    <hr>
-                    <p class="titre_item_exp">A Discord BOT to Launch Python code directly on Discord</p>
-                    <p class="description_item_exp">A Discord Bot which allows you to run Python code on Discord </br>Developed with NodeJs and DiscordJs </br>Code on Github : <a href="https://github.com/GeogeoB/bot-discord-python" class="a_">https://github.com/GeogeoB/bot-discord-python</a></p>
-                    <div class="date_lieu">
-                        <div class="date">
-                            <svg viewBox="0 0 512 512" class="icon_exp"><title>Calendar Number</title><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM476 176H36a4 4 0 00-4 4v236a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4zM239.58 401.1c-12.17 9.61-28.75 14.9-46.7 14.9-27.87 0-48.48-18.16-57.66-33.7a16 16 0 0127.56-16.3c1.08 1.84 11.15 18 30.1 18 16.66 0 36.12-7.29 36.12-27.82 0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16 16 0 010-32c4.85 0 17.41-2.6 25.28-10.65a22 22 0 006.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34 0-23.8 10.61-24.07 11.06a16 16 0 11-27.55-16.26c7.64-13 25.22-26.8 51.62-26.8 16.44 0 31.76 4.77 43.13 13.42 13.39 10.2 20.76 25.28 20.76 42.48A54 54 0 01240 302.35c-1.15 1.18-2.36 2.28-3.59 3.35a66.18 66.18 0 018.42 7.23c10.56 10.8 16.14 25.75 16.14 43.25.03 18.06-7.58 34.01-21.39 44.92zM368 396a16 16 0 01-32 0V256.29l-22.51 16.59a16 16 0 11-19-25.76l43.42-32a16 16 0 019.49-3.12h4.6a16 16 0 0116 16z"/></svg>
-                            <p class="date_lieu_texte">September 2021</p>
-                        </div>
-                    </div>
-                    <div class="image-exemple">
-                        <img src="ressources/bot_python.gif"  width="600">
-                    </div>
-                    
-                </div>
-            </div>
-        </div>        
-    </div>
-
+    
+    
     <div class="container" id="timeline">
-        <div class="timeline">
+        
+            <div class="sub-container" id="king_kong_container">
+                <p>KING KONG</p>
+            </div>
+        
+        <div class="timeline" id=timeline-sub>
             <ul>
+                <li>
+                    <div class="timeline-content">
+                        
+                        <div class="date">
+                            <p>2021 November</p>
+                            <p class="date_lieu_texte"></p>
+                        </div>
+                        
+                        <h1>TreeSize</h1>
+                        <p>A webApp to create complex stories with multi path/choice. </br>Code on Github : <a href="https://github.com/GeogeoB/treesize" class="a_">https://github.com/GeogeoB/treesize</a>
+                        </p>
+                    </li>
                 <li>
                     <div class="timeline-content">
                         
@@ -320,6 +186,26 @@
                       <h1>King Kong</h1>
                       <p>Theatrical performance orchestrated by the teachiht to raise awareness against harassment</p>
                       
+                    </div>
+                    <div class="div-center">
+                        <p class="p_More" onclick="king_kong_app()">More ▼</p>                                            
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-content">
+                        
+                      <div class="date">
+                          <p>October 2021</p>
+                          <p class="date_lieu_texte">Toulouse - France</p>
+                    </div>
+                      
+                      <h1>Interview of an engineer</h1>
+                      <p>Interview of an engineer to understand more the role and issues of this job</p>
+                      
+                    </div>
+                    
+                    <div class="div-center">
+                        <p class="p_More">More ▼</p>                        
                     </div>
                   </li>
                   <li>
@@ -340,6 +226,22 @@
                         
                       <div class="date">
                           <p>2021 September</p>
+                          <p class="date_lieu_texte"></p>
+                    </div>
+                      
+                      <h1>A Discord BOT to Launch Python code directly on Discord</h1>
+                      <p>A Discord Bot which allows you to run Python code on Discord
+                        Developed with NodeJs and DiscordJs
+                    </br>Code on Github : <a href="https://github.com/GeogeoB/bot-discord-python" class="a_">https://github.com/GeogeoB/bot-discord-python</a>
+                    </p>
+                      
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        
+                      <div class="date">
+                          <p>2021 September</p>
                           <p class="date_lieu_texte">Toulouse - France</p>
                     </div>
                       
@@ -347,7 +249,20 @@
                       <p>a workshop to become aware of the climate challenges of our century</p>
                       
                     </div>
+                    <div class="div-center">
+                        <p class="p_More">More ▼</p>                                            
+                    </div>
                 </li>
+              <li>
+                <div class="timeline-content">
+                    <div class="date">
+                        <p>2021 - 2024</p>
+                        <p class="date_lieu_texte">Toulouse - France</p>
+                  </div>
+                  <h1>Engineer school ENSEEIHT</h1>
+                  <p>section SN (Computers Science)</p>
+                </div>
+              </li>
               <li>
                 <div class="timeline-content">
                     
@@ -359,16 +274,6 @@
                   <h1>CDD in MINAKEM</h1>
                   <p>Tasked with recovering, classifying and digitizing the various paper data of the site with the aim of setting up a digital solution for the management of the site</p>
                   
-                </div>
-              </li>
-              <li>
-                <div class="timeline-content">
-                    <div class="date">
-                        <p>2021 - 2024</p>
-                        <p class="date_lieu_texte">Toulouse - France</p>
-                  </div>
-                  <h1>Engineer school ENSEEIHT</h1>
-                  <p>section SN (Computers Science)</p>
                 </div>
               </li>
               <li>
@@ -426,7 +331,7 @@
     <footer>
         <p>Website designed and coded by Geoffrey BRENNE.</p>
     </footer>
-
+    
     <!-- ENLEVE LES COMMENTAIRES EN DESSOUS :)  -->
     <!-- <div class="circle" id="item_5">
         <input type="checkbox" name="" id="checkbox">
